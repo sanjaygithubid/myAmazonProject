@@ -1,0 +1,12 @@
+{
+  "name": "amazon-project",
+  "version": "1.0.0",
+  "description": "it is an ERP application",
+  "main": "amazon1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sanjay barik",
+  "license": "ISC",
+  "keywords": []
+}

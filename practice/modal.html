@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+    integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+</head>
+
+<body>
+
+  <!-- / <h1>Modal Bootstrap Practice</h1> -->
+  <!-- its a container , where all things kept on it. -->
+  <!-- bootstrap add in html file by ===>>npm i bootstrap bootstrap-icons -->
+  <!-- <div class="container-fluid"> -->
+
+  <!-- Launch modal(start/end or on/off) with button(data-bs-toggle) class is = to class of where we want to show box ...example is = (.modal) //// DBS target the area  (#id is = data-bs-target==>by id to show in that area) after we click our button-->
+  <!-- <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-box">modal</button> -->
+  <!-- modal code (here we show our results in this area by class = modal) and {fade= transition to show the result how its slow. -->
+  <!-- <div class="modal fade " id="modal-box"> -->
+  <!-- here we can add modal-dialog to your site for lite boxs , user notification and complete custom content -->
+  <!-- <div class="modal-dialog"> -->
+
+  <!-- here we will fid our every things -->
+  <!-- <div class="modal-content"> -->
+  <!-- <div class="modal-header"> -->
+  <!-- <h3>Header</h3> -->
+  <!-- <button data-bs-dismiss="modal" class="btn btn-close"></button> -->
+  <!-- </div> -->
+  <!-- <div class="modal-body"> -->
+  <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet placeat quaerat eos officia -->
+  <!-- consequuntur -->
+  <!-- id -->
+  <!-- iusto nobis illo reiciendis aut, beatae odio corrupti quia voluptas, modi voluptates amet nesciunt. -->
+  <!-- Doloribus! -->
+  <!-- </p> -->
+  <!-- </div> -->
+  <!-- <div class="modal-footer"> -->
+  <!-- <button class="btn btn-primary" data-bs-dismiss="modal">close</button> -->
+  <!-- </div> -->
+  <!-- </div> -->
+  <!-- </div> -->
+  <!-- </div> -->
+
+  <!-- </div>*/ -->
+  ====================================================================================
+
+  <h1>my first bootstrap modal work</h1>
+  <!-- trigger the lunch modal -->
+  <div class="container-fluid">
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal ">lunch demo modal</button>
+
+    <!-- inside button somany thing are there show by a div -->
+    <div class="modal fade" id="exampleModal" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h3 class="modal-title" id="">job title</h3>
+            <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <div class="modal-body">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint hic assumenda earum sit ab dolores facere
+            atque enim. Dolorum, voluptatibus.
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">close</button>
+
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: aqua;
+  font-family: Arial, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container-1 {
+  width: 100%;
+  background-color: rgb(147, 143, 143);
+  display: grid;
+  grid-template-columns: 3fr 3fr 6fr;
+  justify-content: space-between;
+  position: relative;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+.header-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+.bi-amazon {
+  font-size: 50px;
+}
+.bi-geo-alt-fill {
+  font-size: 25px;
+}
+.header-search {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 11px;
+  align-items: center;
+}
+.input-box {
+  right: 10px;
+  border-radius: 5px;
+}
+.search-btn span {
+  padding: 10px;
+  height: 20px;
+  border-radius: 10px;
+}
+.header-iteams {
+  display: flex;
+  font-size: 18px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin-right: 15px;
+  font-weight: 700;
+  padding: 10px;
+  cursor: pointer;
+}
+.bi-cart4 {
+  font-size: 40px;
+}
+
+.baner-img {
+  width: 100vh;
+}
+section {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+  justify-content: space-between;
+  padding: 5px;
+  gap: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.card {
+  top: -100px;
+  box-shadow: 5px 5px 3px grey;
+  gap: 10px;
+}
+.card-header {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+.card-body {
+  display: flex;
+  flex-direction: row;
+}
+.row {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+}
+.banner-img {
+  background-image: url(./public/images/amazon-bener-img.jpg);
+  width: 100%;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+}
+
+.img-siz {
+  height: 100px;
+  width: 100px;
+  gap: 10px;
+}
+.footer {
+  height: 100px;
+  margin-top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  color: blue;
+  text-align: center;
+  position: relative;
+}
+.btn-cart {
+  margin-top: 20px;
+  background-color: yellow;
+  border-radius: 20px;
+  top: -30px;
+  border: none;
+  padding: 5px;
+}

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify</title>
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <style>
+    nav {
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .card {
+      display: grid;
+      grid-template-columns: 6fr 6fr;
+      width: 100px;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 5px;
+      margin: 10px;
+      font-size: 15px;
+      font-family: Arial;
+    }
+
+    .artist {
+      display: flex;
+      border: 1px groove black;
+      padding: 10px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
+    .artist:target {
+      background-color: black;
+      color: white;
+    }
+
+    .card:target {
+      background-color: yellow;
+      color: black;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div>
+      <a href="#artist1"> <img src="./images/artist1.jpg" width="100" height="100"> </a>
+    </div>
+    <div>
+      <a href="#artist2"> <img src="./images/artist2.jpg" width="100" height="100"> </a>
+    </div>
+    <div>
+      <a href="#artist3"> <img src="./images/artist3.jpg" width="100" height="100"> </a>
+    </div>
+    <div>
+      <ul>
+        <li><a href="#song1">Song-1</a></li>
+        <li><a href="#song2">Song-2</a></li>
+        <li><a href="#song3">Song-3</a></li>
+        <li><a href="#song4">Song-4</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section>
+    <div id="artist1" class="artist">
+      <h3>Artist-1</h3>
+      <div class="card" id="song1">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-1</span>
+        </div>
+      </div>
+      <div class="card" id="song2">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-2</span>
+        </div>
+      </div>
+      <div class="card" id="song3">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-3</span>
+        </div>
+      </div>
+      <div class="card" id="song4">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-4</span>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-5</span>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-6</span>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-7</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="artist2" class="artist">
+      <h3>Artist-2</h3>
+      <div class="card">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-1</span>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-2</span>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-3</span>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-4</span>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-5</span>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-6</span>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-7</span>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="artist3" class="artist">
+      <h3>Artist-3</h3>
+      <div class="card">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-1</span>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-2</span>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-3</span>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-4</span>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-5</span>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-6</span>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <span class="bi bi-play-circle"></span>
+          <span class="bi bi-pause-circle"></span>
+        </div>
+        <div>
+          <span>Song-7</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+  <h1>my first movies titket</h1>
+  <div class="container-fluid">
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Quick Booking
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade " id="exampleModal">
+      <div class="modal-dialog ">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Modal title</h3>
+            <button type="button-close" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+
+          <div class="modal-body">
+
+            <div class="d-flex justify-content-between">
+
+              <div>
+                <select class="form-select">
+                  <option value="">select movies</option>
+                  <option value="">jailer</option>
+                  <option value="">gadar</option>
+                </select>
+              </div>
+
+              <div>
+                <select class="form-select">
+                  <option value="">select cinema</option>
+                  <option value="">mvk-hil</option>
+                  <option value="">ghodt-rid</option>
+                </select>
+              </div>
+
+              <div>
+                <select class="form-select">
+                  <option value="">date</option>
+                  <option value="">15-aug</option>
+                  <option value="">17-aug</option>
+                </select>
+              </div>
+
+              <div>
+                <select class="form-select">
+                  <option value="">time</option>
+                  <option value="">10:00am</option>
+                  <option value="">4:00pm</option>
+                </select>
+              </div>
+
+              <div>
+                <select class="form-select">
+                  <option value="">seat</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                </select>
+              </div>
+
+              <div>
+                <button data-bs-dismiss="modal">book</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="modal-footer bg-white">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
